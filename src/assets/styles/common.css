@@ -123,6 +123,7 @@
   --color-input-bg: #f7fbfd;
   --color-input-border: #e2e8f0;
   --color-input-focus: #36d1c4;
+  --color-border: #e2e8f0;
   --color-btn-text: #fff;
 }
 
@@ -231,6 +232,10 @@ a:hover {
   box-shadow: 0 12px 32px 0 var(--color-shadow-card-hover);
 }
 
+.custom-border {
+  border: 1px solid var(--color-border);
+}
+
 .logo-box {
   margin: 40px auto 30px auto;
   width: 320px;
@@ -245,7 +250,7 @@ a:hover {
 .theme-toggle {
   background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1px solid var(--color-border);
   border-radius: 999px;
   padding: 8px 18px;
   cursor: pointer;
@@ -304,6 +309,7 @@ a:hover {
     --color-input-bg: #22243c;
     --color-input-border: #37395a;
     --color-input-focus: #36d1c4;
+    --color-border: #37395a;
     --color-btn-text: #fff;
   }
 }
@@ -345,5 +351,5 @@ body.dark {
   --color-input-bg: #111827;
   --color-input-border: #374151;
   --color-input-focus: #0ea5e9;
-  --color-btn-text: #fff;
+  --color-border: #374151;
 }
