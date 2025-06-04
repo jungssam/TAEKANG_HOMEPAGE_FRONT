@@ -9,17 +9,17 @@
 
 .custom-header {
   width: 100vw;
-  background: var(--color-bg-soft);
+  background: linear-gradient(90deg, #0f172a 0%, #1f2937 100%);
   box-shadow: 0 2px 8px 0 var(--color-shadow);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 76px;
+  min-height: 80px;
 }
 .logo {
   font-weight: 900;
   font-size: 1.5rem;
-  color: var(--color-accent);
+  color: #ffffff;
   margin-left: 30px;
   margin-right: 60px;
   letter-spacing: 3px;
@@ -34,7 +34,7 @@
 }
 .nav-menu a,
 .theme-toggle {
-  color: var(--color-accent);
+  color: #ffffff;
   font-weight: 700;
   font-size: 1.07rem;
   letter-spacing: 0.5px;
@@ -52,17 +52,15 @@
 
 .nav-menu a:hover,
 .theme-toggle:hover {
-  background: var(--color-accent);
+  background: rgba(255, 255, 255, 0.2);
   color: #fff;
-}
-.theme-toggle {
 }
 @media (max-width: 900px) {
   .logo { margin-right: 20px; }
   .nav-menu { margin-right: 10px; gap: 8px; }
   .nav-menu a,
 .theme-toggle {
-  color: var(--color-accent);
+  color: #ffffff;
   font-weight: 700;
   font-size: 1.07rem;
   letter-spacing: 0.5px;
@@ -90,15 +88,32 @@
   width: 100vw;
 }
 
+.hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1f2937 100%);
+  color: #ffffff;
+}
+.hero h1,
+.hero p {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.hero .container {
+  background: transparent;
+  box-shadow: none;
+}
+.hero .custom-bg-soft {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-text);
+}
+
 
 :root {
   --color-bg: #f8fafc;
-  --color-bg-soft: #fff;
-  --color-text: #1a237e;
-  --color-accent: #0072ff;
-  --color-accent2: #36d1c4;
-  --color-link: #0072ff;
-  --color-link-hover: #36d1c4;
+  --color-bg-soft: #ffffff;
+  --color-text: #1e293b;
+  --color-accent: #6366f1;
+  --color-accent2: #0ea5e9;
+  --color-link: #6366f1;
+  --color-link-hover: #0ea5e9;
   --color-card: #fff;
   --color-shadow: rgba(60,60,60,0.11);
   --color-shadow-card: rgba(60,60,60,0.08);
@@ -228,21 +243,19 @@ a:hover {
 }
 
 .theme-toggle {
-  
-  
-  
-  background: var(--color-card);
-  color: var(--color-text);
-  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 999px;
-  padding: 10px 20px;
-  box-shadow: 0 2px 10px 0 var(--color-shadow);
+  padding: 8px 18px;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   transition: background 0.2s, color 0.2s;
-  
 }
-.theme-toggle:hover { background: var(--color-accent); color: var(--color-btn-text); }
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
 
 @media (max-width: 768px) {
   
@@ -297,12 +310,12 @@ a:hover {
 
 body.light {
   --color-bg: #f8fafc;
-  --color-bg-soft: #fff;
-  --color-text: #1a237e;
-  --color-accent: #0072ff;
-  --color-accent2: #36d1c4;
-  --color-link: #0072ff;
-  --color-link-hover: #36d1c4;
+  --color-bg-soft: #ffffff;
+  --color-text: #1e293b;
+  --color-accent: #6366f1;
+  --color-accent2: #0ea5e9;
+  --color-link: #6366f1;
+  --color-link-hover: #0ea5e9;
   --color-card: #fff;
   --color-shadow: rgba(60,60,60,0.11);
   --color-shadow-card: rgba(60,60,60,0.08);
@@ -316,21 +329,21 @@ body.light {
 }
 
 body.dark {
-  --color-bg: #171923;
-  --color-bg-soft: #20222e;
-  --color-text: #f1f1f4;
-  --color-accent: #36d1c4;
-  --color-accent2: #0072ff;
-  --color-link: #36d1c4;
-  --color-link-hover: #0072ff;
-  --color-card: #23243a;
-  --color-shadow: rgba(0,0,0,0.38);
-  --color-shadow-card: rgba(0,0,0,0.21);
-  --color-shadow-card-hover: rgba(54,209,196,0.26);
-  --color-btn-shadow: rgba(54,209,196,0.15);
-  --color-btn-shadow-hover: rgba(54,209,196,0.27);
-  --color-input-bg: #22243c;
-  --color-input-border: #37395a;
-  --color-input-focus: #36d1c4;
+  --color-bg: #111827;
+  --color-bg-soft: #1f2937;
+  --color-text: #f3f4f6;
+  --color-accent: #0ea5e9;
+  --color-accent2: #6366f1;
+  --color-link: #0ea5e9;
+  --color-link-hover: #6366f1;
+  --color-card: #1e293b;
+  --color-shadow: rgba(0,0,0,0.45);
+  --color-shadow-card: rgba(0,0,0,0.3);
+  --color-shadow-card-hover: rgba(99,102,241,0.35);
+  --color-btn-shadow: rgba(14,165,233,0.2);
+  --color-btn-shadow-hover: rgba(14,165,233,0.3);
+  --color-input-bg: #111827;
+  --color-input-border: #374151;
+  --color-input-focus: #0ea5e9;
   --color-btn-text: #fff;
 }
