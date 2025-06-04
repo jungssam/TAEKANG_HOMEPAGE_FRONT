@@ -1,6 +1,7 @@
 
 <template>
   <header class="custom-header">
+    <img src="@/assets/icon.svg" alt="TKC" class="h-8 w-8 mr-2" />
     <div class="logo">(주)태강정보통신</div>
     <nav class="nav-menu">
       <a href="/">홈</a>
