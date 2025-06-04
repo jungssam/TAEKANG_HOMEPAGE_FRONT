@@ -1,5 +1,5 @@
 <template>
-  <div class="site-main">
+  <div class="site-main hero">
     <div class="container animate-fade-in">
         <section class="flex flex-col items-center">
           <img src="@/assets/logo.svg" alt="TKC" class="w-32 mt-6 mb-2" />
