@@ -1,9 +1,9 @@
 <template>
   <div class="site-main">
-    <div class="container">
+    <div class="container animate-fade-in">
         <section>
           <h2 class="text-2xl font-bold mb-3 text-blue-700">회사소개</h2>
-          <div class="grid md:grid-cols-2 gap-8 mb-8">
+          <div class="grid md:grid-cols-2 gap-8 mb-8 animate-slide-up">
             <div>
               <h3 class="font-bold mb-2">연혁</h3>
               <ul class="list-disc list-inside text-gray-700 text-sm">
