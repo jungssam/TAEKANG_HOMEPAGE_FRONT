@@ -9,7 +9,7 @@
 
 .custom-header {
   width: 100vw;
-  background: linear-gradient(90deg, var(--color-accent) 0%, var(--color-accent2) 100%);
+  background: linear-gradient(90deg, #0f172a 0%, #1f2937 100%);
   box-shadow: 0 2px 8px 0 var(--color-shadow);
   display: flex;
   align-items: center;
@@ -89,8 +89,12 @@
 }
 
 .hero {
-  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent2) 100%);
+  background: linear-gradient(135deg, #0f172a 0%, #1f2937 100%);
   color: #ffffff;
+}
+.hero h1,
+.hero p {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 .hero .container {
   background: transparent;
