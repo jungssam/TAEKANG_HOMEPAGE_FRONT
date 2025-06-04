@@ -1,0 +1,2 @@
+
+const alert = window.alert;
