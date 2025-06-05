@@ -4,8 +4,9 @@
         <section>
           <h2 class="text-2xl font-bold mb-4 text-blue-700">채용정보</h2>
           <div class="mb-8">
-            <h3 class="font-bold mb-2">진행중인 채용공고</h3>
-            <ul class="divide-y divide-gray-200 custom-bg-soft rounded-lg custom-border animate-slide-up">
+            <h3 class="font-bold mb-2">진행중인 채용공고</h3> 
+            <ul class="divide-y divide-gray-300 dark:divide-gray-700 custom-bg-soft rounded-lg border border-gray-300 dark:border-gray-700 animate-slide-up">
+
               <li class="p-3 flex flex-col md:flex-row md:justify-between">
                 <span class="font-bold">[경력] IT인프라 엔지니어</span>
                 <span class="text-sm text-gray-600">2024-05-01~채용시</span>

@@ -4,14 +4,14 @@
         <section>
           <h2 class="text-2xl font-bold mb-4 text-blue-700">고객지원</h2>
           <div class="mb-8">
-            <h3 class="font-bold mb-2">공지사항</h3>
-            <ul class="divide-y divide-gray-200 custom-bg-soft rounded-lg custom-border animate-slide-up">
+            <h3 class="font-bold mb-2">공지사항</h3> 
+            <ul class="divide-y divide-gray-300 dark:divide-gray-700 custom-bg-soft rounded-lg border border-gray-300 dark:border-gray-700 animate-slide-up"> 
               <li class="p-3 flex justify-between"><span>[2024-05-01]</span><span>홈페이지 리뉴얼 안내</span></li>
               <li class="p-3 flex justify-between"><span>[2024-04-10]</span><span>정보보안 시스템 점검</span></li>
               <li class="p-3 flex justify-between"><span>[2024-03-20]</span><span>IT 파트너사 모집</span></li>
             </ul>
-          </div>
-          <div class="custom-bg-soft rounded-lg custom-border shadow p-6 max-w-lg animate-slide-up">
+          </div> 
+          <div class="custom-bg-soft rounded-lg border border-gray-300 dark:border-gray-700 shadow p-6 max-w-lg animate-slide-up"> 
             <h3 class="font-bold mb-2">문의하기</h3>
             <form @submit.prevent="alert('문의가 접수되었습니다! (실제 연결X, 목업용)')">
               <input type="text" required placeholder="이름" class="input mb-2" />
