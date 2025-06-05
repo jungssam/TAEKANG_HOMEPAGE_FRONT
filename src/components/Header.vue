@@ -1,8 +1,7 @@
 
 <template>
   <header class="custom-header">
-    <img src="@/assets/icon.svg" alt="TKC" class="h-8 w-8 mr-2" />
-    <div class="logo">(주)태강정보통신</div>
+    <img src="/images/KakaoTalk_20250605_151235366.png" alt="TKC" class="h-10 w-auto mr-4" />
     <nav class="nav-menu">
       <a href="/">홈</a>
       <a href="/about">회사소개</a>
@@ -23,11 +22,6 @@ const { theme, themeLabel, toggleTheme } = useTheme()
 </script>
 
 <style scoped>
-.logo {
-  font-size: 1.8em;
-  font-weight: bold;
-  padding-right: 24px;
-}
 .nav-menu {
   display: flex;
   gap: 24px;
