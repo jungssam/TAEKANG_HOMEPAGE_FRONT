@@ -16,6 +16,12 @@
   justify-content: center;
   min-height: 80px;
 }
+.custom-header .logo-img {
+  height: 40px;
+}
+body.dark .custom-header .logo-img {
+  filter: invert(1) brightness(1.4);
+}
 .logo {
   font-weight: 900;
   font-size: 1.5rem;
@@ -103,6 +109,10 @@ body.light .hero p {
 }
 body.dark .hero {
   background: linear-gradient(135deg, #0f172a 0%, #1f2937 100%);
+  color: #ffffff;
+}
+body.dark .hero h1,
+body.dark .hero p {
   color: #ffffff;
 }
 .hero h1,
