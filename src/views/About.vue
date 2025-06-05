@@ -21,7 +21,7 @@
           </div>
           <div class="mb-6">
             <h3 class="font-bold mb-2">조직도</h3>
-            <img src="https://placehold.co/480x120?text=조직도" class="rounded border" alt="조직도" />
+            <img src="https://placehold.co/480x120?text=조직도" class="rounded border border-gray-300 dark:border-gray-700" alt="조직도" />
           </div>
           <div>
             <h3 class="font-bold mb-2">오시는 길</h3>
