@@ -92,6 +92,19 @@
   background: linear-gradient(135deg, #0f172a 0%, #1f2937 100%);
   color: #ffffff;
 }
+body.light .hero {
+  background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
+  color: var(--color-text);
+}
+body.light .hero h1,
+body.light .hero p {
+  text-shadow: none;
+  color: var(--color-text);
+}
+body.dark .hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1f2937 100%);
+  color: #ffffff;
+}
 .hero h1,
 .hero p {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
