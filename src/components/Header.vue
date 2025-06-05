@@ -1,7 +1,8 @@
 
 <template>
   <header class="custom-header">
-    <img src="/images/KakaoTalk_20250605_151235366.png" alt="TKC" class="h-10 w-auto mr-4 logo-img" />
+    <!-- Use SVG logo with transparent background -->
+    <img src="@/assets/logo.svg" alt="TKC" class="h-10 w-auto mr-4 logo-img" />
     <nav class="nav-menu">
       <a href="/">홈</a>
       <a href="/about">회사소개</a>
