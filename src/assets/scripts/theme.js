@@ -8,8 +8,13 @@ export function useTheme() {
     )
     function applyTheme(value) {
         document.body.classList.remove('light', 'dark')
-        if (value === 'light' || value === 'dark') {
-            document.body.classList.add(value)
+        if (value === 'light') {
+            document.body.classList.add('light')
+        } else if (value === 'dark') {
+            document.body.classList.add('dark')
+        } else if (value === 'system') {
+            const systemTheme = detectSystemTheme()
+            document.body.classList.add(systemTheme)
         }
     }
     function detectSystemTheme() {
@@ -29,6 +34,11 @@ export function useTheme() {
     onMounted(() => {
         theme.value = localStorage.getItem('theme') || 'system'
         applyTheme(theme.value)
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+            if (theme.value === 'system') {
+                applyTheme('system')
+            }
+        })
     })
     return { theme, themeLabel, toggleTheme }
 }
