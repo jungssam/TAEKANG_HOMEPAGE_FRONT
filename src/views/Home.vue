@@ -2,7 +2,7 @@
   <div class="site-main hero">
     <div class="container animate-fade-in">
         <section class="flex flex-col items-center">
-          <img src="@/assets/logo.svg" alt="TKC" class="w-32 mt-6 mb-2" />
+          <img src="../images/logo1.png" class="w-32 mt-6 mb-2" />
           <h1 class="text-3xl md:text-4xl font-bold mb-4 text-center text-gray-900 dark:text-white">IT SI/SM 토탈 솔루션, <span style="color:var(--color-accent2)">태강정보통신</span></h1>
           <p class="text-lg text-gray-800 dark:text-gray-200 mb-6 text-center">
             고객과 함께 성장하는 IT 파트너<br />스마트한 SI, 안정적인 SM, 미래지향적 솔루션 전문기업
@@ -28,3 +28,5 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+</script>

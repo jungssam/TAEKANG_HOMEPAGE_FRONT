@@ -17,7 +17,7 @@
   min-height: 80px;
 }
 .custom-header .logo-img {
-  height: 40px;
+  height: 80px;
 }
 body.dark .custom-header .logo-img {
   filter: invert(1) brightness(1.4);

@@ -27,7 +27,7 @@
             <h3 class="font-bold mb-2">오시는 길</h3>
             <div class="text-gray-700 text-sm">
               경기도 김포시 고촌읍 장차로5번길 20, 3층 <br/>
-              지하철 1,2,3,4,5,6,7,8,9 호선 근접
+
             </div>
           </div>
         </section>

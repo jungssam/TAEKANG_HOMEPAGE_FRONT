@@ -2,14 +2,15 @@
 <template>
   <header class="custom-header">
     <!-- Use SVG logo with transparent background -->
-    <img src="@/assets/logo.svg" alt="TKC" class="h-10 w-auto mr-4 logo-img" />
+    <img src="../images/logo1.png" class="h-10 w-auto mr-4 logo-img" />
     <nav class="nav-menu">
       <a href="/">홈</a>
       <a href="/about">회사소개</a>
       <a href="/service">사업분야</a>
       <a href="/support">고객지원</a>
-      <a href="/download">자료실</a>
+<!--      <a href="/download">자료실</a>-->
       <a href="/careers">채용정보</a>
+      <a href="/careers">오시는길</a>
       <button @click="toggleTheme" class="theme-toggle">
         {{ themeLabel }}
       </button>
